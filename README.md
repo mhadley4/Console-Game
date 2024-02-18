@@ -1,3 +1,6 @@
+![ch22airrr](https://github.com/mhadley4/Console-Game/assets/113991151/b6e6edcb-4107-4ee2-8eaa-1e1b1fb357e5)
+![ch222airrr](https://github.com/mhadley4/Console-Game/assets/113991151/b7c51e3b-977b-473b-b06e-85a7908be3e0)
+![ch222airrr](https://github.com/mhadley4/Console-Game/assets/113991151/19795d7f-53a9-4517-87d8-f5acb22d0574)
 ![scene](https://github.com/mhadley4/Console-Game/assets/113991151/94fd1aa0-96fb-465a-9116-7bf6cca5dafa)
 ![erly](https://github.com/mhadley4/Console-Game/assets/113991151/2a1208c2-8556-4ed5-809c-f4839115a328)
 ![HARD](https://github.com/mhadley4/Console-Game/assets/113991151/6176c178-d870-4538-9065-161dc08d376a)
