@@ -361,6 +361,7 @@
 -analyzer:"D:/2022.3.11f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/charicter/scripts/SHMOOVIN2.cs"
 "Assets/charicter/third person cam.cs"
+"Assets/savabels/money/NewBehaviourScript.cs"
 -langversion:9.0
 
 /deterministic
