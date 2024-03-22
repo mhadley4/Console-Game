@@ -1,33 +1,91 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/github/Console-Game/Project/AtlusA/Packages/manifest.json
+    m_FilePath: V:/github/Console-Game/Project/AtlusA/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638443235346925643
-    m_Hash: 989322011
+      ticks: 638467137890978162
+    m_Hash: 3941674498
   m_LockFileStatus:
-    m_FilePath: D:/github/Console-Game/Project/AtlusA/Packages/packages-lock.json
+    m_FilePath: V:/github/Console-Game/Project/AtlusA/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638448429750914033
-    m_Hash: 4125947418
+      ticks: 638467137891487067
+    m_Hash: 2808697251
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/github/Console-Game/Project/AtlusA/Packages
-m_EditorVersion: 2022.2.13f1 (5f5de2657605)
+m_ProjectPath: V:/github/Console-Game/Project/AtlusA/Packages
+m_EditorVersion: 2022.3.4f1 (35713cd46cd7)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.cinemachine@2.9.7
   testable: 0
   isDirectDependency: 1
   version: 2.9.7
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.cinemachine@2.9.7
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.cinemachine@2.9.7
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -111,6 +169,7 @@ m_ResolvedPackages:
     - 2.9.4
     - 2.9.5
     - 2.9.7
+    - 2.10.0
     - 3.0.0-pre.3
     - 3.0.0-pre.4
     - 3.0.0-pre.5
@@ -122,8 +181,15 @@ m_ResolvedPackages:
     compatible:
     - 2.9.5
     - 2.9.7
+    - 2.10.0
     - 3.0.0-pre.3
     - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.0-pre.7
+    - 3.0.0-pre.8
+    - 3.0.0-pre.9
+    - 3.0.1
     recommended: 2.9.7
     deprecated: []
   dependencies:
@@ -169,7 +235,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638191355130000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/index.html
@@ -192,7 +258,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.1.0
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.collab-proxy@2.1.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.collab-proxy@2.1.0
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -279,10 +345,8 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     - 2.1.0
     - 2.2.0
+    - 2.3.1
     compatible:
-    - 2.0.1
-    - 2.0.3
-    - 2.0.4
     - 2.0.5
     - 2.0.7
     - 2.1.0-preview.3
@@ -290,6 +354,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     - 2.1.0
     - 2.2.0
+    - 2.3.1
     recommended: 2.0.7
     deprecated: []
   dependencies: []
@@ -317,7 +382,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638301329890000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.1/manual/index.html
@@ -328,7 +393,7 @@ m_ResolvedPackages:
     revision: 179e96acc2f95fcb9dcc91b5fb2ee5f3e85d48aa
     path: 
   unityLifecycle:
-    version: 2.0.1
+    version: 2.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -340,7 +405,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.feature.development@1.0.1
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.feature.development@1.0.1
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -380,7 +445,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.17
+    version: 2.0.18
   - name: com.unity.test-framework
     version: 1.1.33
   - name: com.unity.ext.nunit
@@ -390,7 +455,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.18
+    version: 3.0.24
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -398,7 +463,7 @@ m_ResolvedPackages:
   - name: com.unity.performance.profile-analyzer
     version: 1.2.2
   - name: com.unity.testtools.codecoverage
-    version: 1.2.2
+    version: 1.2.4
   - name: com.unity.settings-manager
     version: 2.0.1
   keywords: []
@@ -410,7 +475,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -433,7 +498,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -601,7 +666,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -624,7 +689,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.5
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.timeline@1.7.5
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.timeline@1.7.5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -770,7 +835,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638229649600000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
@@ -788,12 +853,105 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+- packageId: com.unity.toolchain.win-x86_64-linux-x86_64@2.0.6
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.6
+  source: 1
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.6
+  assetPath: Packages/com.unity.toolchain.win-x86_64-linux-x86_64
+  name: com.unity.toolchain.win-x86_64-linux-x86_64
+  displayName: Toolchain Win Linux x64
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Cross-compilation toolchain to build player target Linux x86_64 on
+    host Windows x86_64
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.4-preview
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.7-preview
+    - 0.1.8-preview
+    - 0.1.9-preview
+    - 0.1.10-preview
+    - 0.1.11-preview
+    - 0.1.13-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 0.1.16-preview
+    - 0.1.17-preview
+    - 0.1.18-preview
+    - 0.1.19-preview
+    - 0.1.20-preview
+    - 0.1.21-preview
+    - 1.0.0
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    compatible:
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    recommended: 2.0.6
+    deprecated: []
+  dependencies:
+  - name: com.unity.sysroot
+    version: 2.0.7
+  - name: com.unity.sysroot.linux-x86_64
+    version: 2.0.6
+  resolvedDependencies:
+  - name: com.unity.sysroot
+    version: 2.0.7
+  - name: com.unity.sysroot.linux-x86_64
+    version: 2.0.6
+  keywords:
+  - toolchain
+  - windows
+  - linux
+  - cross-compilation
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638258057940000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.toolchain.win-x86_64-linux-x86_64@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: bf00578d8ff96f17f95a226bb361b69fe2860cc1
+    path: 
+  unityLifecycle:
+    version: 2.0.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -864,7 +1022,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.1
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.visualscripting@1.9.1
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.visualscripting@1.9.1
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -909,10 +1067,12 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.9.0
     - 1.9.1
+    - 1.9.2
     compatible:
     - 1.8.0
     - 1.9.0
     - 1.9.1
+    - 1.9.2
     recommended: 1.8.0
     deprecated:
     - 1.8.0-pre.1
@@ -962,7 +1122,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1017,7 +1177,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1071,7 +1231,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1126,7 +1286,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1181,7 +1341,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1236,7 +1396,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1295,7 +1455,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1358,7 +1518,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1414,7 +1574,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1469,7 +1629,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1524,7 +1684,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1579,7 +1739,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1634,7 +1794,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1689,7 +1849,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1748,7 +1908,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1803,7 +1963,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1866,7 +2026,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1924,7 +2084,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1979,7 +2139,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2046,7 +2206,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2101,7 +2261,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2164,7 +2324,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2219,7 +2379,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2282,7 +2442,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2345,7 +2505,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2408,7 +2568,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2487,7 +2647,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2546,7 +2706,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2613,7 +2773,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2682,7 +2842,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2737,7 +2897,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2804,7 +2964,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2858,12 +3018,171 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.visualstudio@2.0.17
+- packageId: com.unity.sysroot@2.0.7
   testable: 0
   isDirectDependency: 0
-  version: 2.0.17
+  version: 2.0.7
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.sysroot@2.0.7
+  assetPath: Packages/com.unity.sysroot
+  name: com.unity.sysroot
+  displayName: Sysroot Base
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: This is the base sysroot package required by all sysroot and toolchain
+    packages
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.7-preview
+    - 0.1.8-preview
+    - 0.1.9-preview
+    - 0.1.10-preview
+    - 0.1.11-preview
+    - 0.1.12-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 0.1.16-preview
+    - 0.1.17-preview
+    - 0.1.18-preview
+    - 0.1.19-preview
+    - 1.0.0
+    - 2.0.0
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    - 2.0.7
+    compatible:
+    - 2.0.5
+    - 2.0.6
+    - 2.0.7
+    recommended: 2.0.7
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  - linux
+  - sysroot
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638258057320000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sysroot@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: bf00578d8ff96f17f95a226bb361b69fe2860cc1
+    path: 
+  unityLifecycle:
+    version: 2.0.5
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.sysroot.linux-x86_64@2.0.6
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.6
+  source: 1
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.6
+  assetPath: Packages/com.unity.sysroot.linux-x86_64
+  name: com.unity.sysroot.linux-x86_64
+  displayName: Sysroot Linux x64
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Sysroot used to build unity player for linux x86_64
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.6-preview
+    - 0.1.7-preview
+    - 0.1.8-preview
+    - 0.1.9-preview
+    - 0.1.10-preview
+    - 0.1.11-preview
+    - 0.1.12-preview
+    - 0.1.13-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 1.0.0
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    compatible:
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    recommended: 2.0.6
+    deprecated: []
+  dependencies:
+  - name: com.unity.sysroot
+    version: 2.0.7
+  resolvedDependencies:
+  - name: com.unity.sysroot
+    version: 2.0.7
+  keywords:
+  - unity
+  - linux
+  - sysroot
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638258057410000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sysroot.linux-x86_64@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: bf00578d8ff96f17f95a226bb361b69fe2860cc1
+    path: 
+  unityLifecycle:
+    version: 2.0.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.ide.visualstudio@2.0.18
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.18
+  source: 1
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -2905,7 +3224,6 @@ m_ResolvedPackages:
     - 2.0.21
     - 2.0.22
     compatible:
-    - 2.0.17
     - 2.0.18
     - 2.0.20
     - 2.0.21
@@ -2933,30 +3251,30 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638059987360000000
+  datePublishedTicks: 638173205920000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 1f126893bfb18ea9661fb15771613e841467073c
+    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
     path: 
   unityLifecycle:
-    version: 2.0.17
+    version: 2.0.18
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.18
+- packageId: com.unity.ide.rider@3.0.24
   testable: 0
   isDirectDependency: 0
-  version: 3.0.18
+  version: 3.0.24
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.ide.rider@3.0.18
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.ide.rider@3.0.24
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -2965,7 +3283,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -3014,16 +3332,14 @@ m_ResolvedPackages:
     - 3.0.25
     - 3.0.26
     - 3.0.27
+    - 3.0.28
     compatible:
-    - 3.0.18
-    - 3.0.20
-    - 3.0.21
-    - 3.0.22
     - 3.0.24
     - 3.0.25
     - 3.0.26
     - 3.0.27
-    recommended: 3.0.27
+    - 3.0.28
+    recommended: 3.0.28
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -3040,18 +3356,18 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638088746970000000
+  datePublishedTicks: 638221653400000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
+    revision: f5decc642e3618ce1c6827d47318260e61d64714
     path: 
   unityLifecycle:
-    version: 3.0.18
+    version: 3.0.24
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3063,7 +3379,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.5
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -3108,7 +3424,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637800255360000000
   documentationUrl: 
@@ -3131,7 +3447,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3140,7 +3456,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
@@ -3196,7 +3512,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3244,7 +3560,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638108624620000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
@@ -3267,7 +3583,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.33
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -3379,7 +3695,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637938212700000000
   documentationUrl: 
@@ -3397,12 +3713,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.testtools.codecoverage@1.2.2
+- packageId: com.unity.testtools.codecoverage@1.2.4
   testable: 0
   isDirectDependency: 0
-  version: 1.2.2
+  version: 1.2.4
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3452,8 +3768,6 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.2.5
     compatible:
-    - 1.2.2
-    - 1.2.3
     - 1.2.4
     - 1.2.5
     recommended: 1.2.5
@@ -3487,18 +3801,18 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638047147810000000
-  documentationUrl: 
+  datePublishedTicks: 638212235100000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: 4178e047a15e206f715d23af69b02acd367bb000
+    revision: a7dd0751db55cd55e3b336723fb51433c1de7244
     path: 
   unityLifecycle:
-    version: 1.2.2
+    version: 1.2.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3510,7 +3824,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.settings-manager@2.0.1
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.settings-manager@2.0.1
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -3572,7 +3886,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: D:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: V:\github\Console-Game\Project\AtlusA\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3620,7 +3934,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637429759280000000
   documentationUrl: 
