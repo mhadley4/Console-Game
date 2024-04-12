@@ -9,10 +9,23 @@ public class Random_Damage : MonoBehaviour
     public int DamageMax = 1;
     public int DamageMin = 10;
 
+
+
+
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
+    }
+
+
+
+
+
     public void DamageEnemy()
     {
         EnemyHealth -= Random.Range(DamageMax, DamageMin);
-        Debug.Log(EnemyHealth);
+        Debug.Log(EnemyHealth); 
     }
 
     // Update is called once per frame

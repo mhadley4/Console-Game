@@ -1,0 +1,54 @@
+{
+    "name": "input",
+    "maps": [
+        {
+            "name": "movement",
+            "id": "a05d6007-a367-4bfd-b471-d6c4e7fd21e9",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "7766d261-c63c-4766-8443-d3902070300a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "movin",
+                    "type": "Button",
+                    "id": "aaf644d7-a79a-4541-9d62-4a9f8ac16059",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "81bb3610-862b-4f05-8d1e-4050f40079db",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "98d35805-2309-4f31-bca5-bcddc7d68655",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movin",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
