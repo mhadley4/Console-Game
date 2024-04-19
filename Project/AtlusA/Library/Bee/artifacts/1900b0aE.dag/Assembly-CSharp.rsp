@@ -480,6 +480,7 @@
 "Assets/NintendoSDKPlugin/nn/util/util_Float3.cs"
 "Assets/NintendoSDKPlugin/nn/util/util_Float4.cs"
 "Assets/savabels/money/colect.cs"
+"Assets/savabels/money/NewBehaviourScript.cs"
 "Assets/Scripts/battleGL.cs"
 "Assets/Scripts/Enemy/normalenemy.cs"
 "Assets/Scripts/Player/ButtonsActive.cs"
