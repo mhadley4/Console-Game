@@ -21,7 +21,7 @@ public class SaveGame : MonoBehaviour
 
     private void Start()
     {
-#if UNITY_SWITCH
+#if UNITY_SWITCH && !UNITY_EDITOR
         nn.account.Account.Initialize();
         nn.account.UserHandle userHandle = new nn.account.UserHandle();
 
@@ -42,7 +42,7 @@ public class SaveGame : MonoBehaviour
         npadState = new nn.hid.NpadState();
 #endif
     }
-#if UNITY_SWITCH
+#if UNITY_SWITCH && !UNITY_EDITOR
     private void InitSave()
     {
         nn.fs.EntryType entryType = 0;
@@ -106,4 +106,20 @@ public class SaveGame : MonoBehaviour
         result.abortUnlessSuccess();
     }
 #endif
+
+    private void Update()
+    {
+#if UNITY_EDITOR || !UNITY_SWITCH
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Debug.Log("hello");
+        }
+#else
+        if (Input.GetButtonDown("SaveTemp"))
+        {
+            Debug.Log("hello");
+        }
+#endif
+
+    }
 }

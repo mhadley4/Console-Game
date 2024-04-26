@@ -1,9 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class LoadGame : MonoBehaviour
 {
+    private nn.account.Uid userId;
+    private const string mountName = "MySave";
+    private const string fileName = "MySaveData";
+    private static readonly string filePath = string.Format("{0}:/{1}", mountName, fileName);
+    private nn.fs.FileHandle fileHandle = new nn.fs.FileHandle();
+
+    private nn.hid.NpadState npadState;
+    private nn.hid.NpadId[] npadIds = { nn.hid.NpadId.Handheld, nn.hid.NpadId.No1 };
+    private const int saveDataVersion = 1;
+    private const int saveDataSize = 8;
+    private int counter = 0;
+    private int saveData = 0;
+    private int loadData = 0;
+
 #if UNITY_SWITCH
     private void Load()
     {
@@ -39,7 +54,8 @@ public class LoadGame : MonoBehaviour
     private void ResetData()
     {
         counter = 0;
-        SaveCounter();
+        //SaveCounter();
         saveData = counter;
+    }
 #endif
 }

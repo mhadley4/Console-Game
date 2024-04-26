@@ -4,6 +4,7 @@ using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class battleGL : MonoBehaviour
 {
@@ -11,8 +12,8 @@ public class battleGL : MonoBehaviour
     public bool attacking;
     private normalenemy e;
     public charactercombat c;
-    public SaveGame save;
-    public LoadGame load;
+    //public SaveGame save;
+    //public LoadGame load;
     public Button AttackButton, GunButton, BombButton, HealButton, InfoButton, FleeButton, AttackButton_Upgr, GunButton_Upgr, HealButton_Upgr, BombButton_Upgr;
     private Object enemyPrefab;
     public string prefabFilename;
@@ -43,6 +44,9 @@ public class battleGL : MonoBehaviour
         BombButton_Upgr.onClick.AddListener(() => StartTurn(BombButton_Upgr));
         HealButton.onClick.AddListener(() => StartTurn(HealButton));
         HealButton_Upgr.onClick.AddListener(() => StartTurn(HealButton_Upgr));
+        FleeButton.onClick.AddListener(() => Flee());
+        InfoButton.onClick.AddListener(() => Info());
+
 
 //#if UNITY_SWITCH
 //        save.InitSave();
@@ -99,6 +103,16 @@ public class battleGL : MonoBehaviour
             attacking = true;
             StartCoroutine(WaitForTurn());
         }
+    }
+
+    public void Flee()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+
+    public void Info()
+    {
+        Debug.Log("info time");
     }
 
     public IEnumerator WaitForTurn()

@@ -20,4 +20,14 @@ public class colect : MonoBehaviour
             Destroy (coll.gameObject);
         }
     }
+
+    private void Update()
+    {
+#if UNITY_SWITCH
+        if (Input.GetButtonDown("SaveTemp"))
+        {
+            Debug.Log("hello");
+        }
+#endif
+    }
 }
